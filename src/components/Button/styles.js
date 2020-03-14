@@ -15,6 +15,7 @@ export const Container = styled.div`
   
   &:hover {
     background: ${ (props) => lighten('0.1', props.backgroundColor)};
+    cursor: pointer;
   }
 }
 `;
