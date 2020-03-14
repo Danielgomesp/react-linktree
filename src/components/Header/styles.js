@@ -7,7 +7,6 @@ export const Container = styled.div`
   justify-content: center;
   text-align: center;
   width: 100%;
-  margin: 0 auto;
 `;
 
 export const Picture = styled.div`

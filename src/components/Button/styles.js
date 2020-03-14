@@ -10,8 +10,7 @@ export const Container = styled.div`
   flex-flow: row;
   justify-content: center;
   margin: 10px auto;
-  max-width: 370px;
-  width: 80%;
+  width: 100%;
   
   &:hover {
     background: ${ (props) => lighten('0.1', props.backgroundColor)};
