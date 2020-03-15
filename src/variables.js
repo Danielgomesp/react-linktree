@@ -7,7 +7,7 @@ export default {
   blogColor: '#FF585D',
   linkedinColor: '#2867B2',
   twitterColor: '#1DA1F2',
-  githubColor: '#000000',
+  githubColor: '#24292e',
   opt1Color: '#366251',
   opt2Color: '#FF8300',
 }
