@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import variables from '../../variables';
 import { lighten } from 'polished';
 
-export const Container = styled.div`
+export const Container = styled.a`
   align-items: center;
   background: ${ (props) => props.backgroundColor ? props.backgroundColor : variables.opt1Color};
   border-radius: 3px;
@@ -10,6 +10,7 @@ export const Container = styled.div`
   flex-flow: row;
   justify-content: center;
   margin: 10px auto;
+  text-decoration: none;
   width: 100%;
   
   &:hover {
