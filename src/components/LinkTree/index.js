@@ -3,7 +3,6 @@ import { Container } from './styles';
 import Button from '../Button';
 import variables from '../../variables';
 import Header from '../Header';
-import profilePicture from '../../images/DanielsPicture.jpg';
 
 export default function LinkTree() {
   return (
